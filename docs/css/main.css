@@ -2,3 +2,7 @@
 Смартфон - https://wireframe.cc/7URIKP
 ПК - https://wireframe.cc/38TofG
 */
+
+*{
+    box-sizing: border-box;
+}
