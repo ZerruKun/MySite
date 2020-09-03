@@ -3,6 +3,23 @@
 ПК - https://wireframe.cc/38TofG
 */
 
-*{
+html, body, div, span, h1, h2, h3, p, a, img, ol, ul, li,
+table, tr, th, td, article, footer, header, nav, section {
     box-sizing: border-box;
+}
+
+html, body {
+  font-family: verdana, arial, sans-serif;
+}
+
+body {
+    color: #000000;
+    font-size: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual-hidden {
+  display: none;
 }
