@@ -49,7 +49,7 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   .nav-list {
     flex-direction: row;
   }
@@ -62,4 +62,53 @@ body {
 .main-caption {
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.about-short {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .about-short {
+    flex-direction: row;
+  }
+}
+
+.my-foto {
+  width: 35%;
+  padding-bottom: 1.5em;
+}
+
+.short-about-me {
+  width: 65%;
+  padding-bottom: 1.5em;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  width: 33%;
+}
+
+.feature {
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+.feature:last-child {
+  padding-bottom: 0em;
+}
+
+@media screen and (min-width: 500px) {
+  .features {
+    flex-direction: row;
+  }
+
+  .feature {
+    padding-bottom: 0em;
+  }
 }
