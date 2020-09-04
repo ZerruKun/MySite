@@ -50,12 +50,17 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
-                .nav-list {
-                    flex-direction: row;
-                }
+@media screen and (min-width: 600px) {
+  .nav-list {
+    flex-direction: row;
+  }
 
-                .nav-list-item {
-                  width: 25%;
-                }
-            }
+  .nav-list-item {
+    width: 25%;
+  }
+}
+
+.main-caption {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
