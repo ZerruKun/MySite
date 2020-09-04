@@ -91,7 +91,7 @@ body {
 }
 
 .feature {
-  width: 33%;
+  width: 100%;
 }
 
 .feature {
@@ -110,5 +110,6 @@ body {
 
   .feature {
     padding-bottom: 0em;
+    width: 33%;
   }
 }
