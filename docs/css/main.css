@@ -13,9 +13,12 @@ html, body {
 }
 
 body {
+    max-width: 980px;
     color: #000000;
     font-size: 1em;
     padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
   }
@@ -112,4 +115,24 @@ body {
     padding-bottom: 0em;
     width: 33%;
   }
+}
+
+.education-table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.education-table th,
+.education-table td {
+  border: 1px solid black;
+  padding: 0.2em;
+}
+
+.first-column {
+  width: 10%;
+}
+
+.other-columns {
+  width: 45%;
 }
