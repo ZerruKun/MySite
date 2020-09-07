@@ -136,3 +136,50 @@ body {
 .other-columns {
   width: 45%;
 }
+
+.head-block {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.logo-organization {
+  width: 15%;
+}
+
+.career-short {
+  width: 85%;
+  padding-bottom: 2em;
+}
+
+.career-description {
+  padding-bottom: 2em;
+  text-align: justify;
+}
+
+.career-description-last {
+  padding-bottom: 0em;
+  text-align: justify;
+}
+
+.project-descrition {
+  display: flex;
+  flex-direction: row;
+}
+
+.project {
+  text-align: justify;
+  width: 50%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*
+.project h3 {
+  text-align: center;
+}
+*/
+
+.arrow {
+  width: 10%;
+}
