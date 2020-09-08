@@ -3,6 +3,8 @@
 ПК - https://wireframe.cc/38TofG
 */
 
+/* Общее */
+
 html, body, div, span, h1, h2, h3, p, a, img, ol, ul, li,
 table, tr, th, td, article, footer, header, nav, section {
     box-sizing: border-box;
@@ -27,6 +29,18 @@ body {
   display: none;
 }
 
+.main-caption {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.sub-caption {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Шапка */
+
 .logo-social {
   display: flex;
   flex-direction: row;
@@ -45,14 +59,14 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 1em;
+  margin-top: 1em;
 }
 
 .nav-list-item {
   width: 100%;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .nav-list {
     flex-direction: row;
   }
@@ -62,17 +76,14 @@ body {
   }
 }
 
-.main-caption {
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
+/* Блок "Обо мне" */
 
 .about-short {
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .about-short {
     flex-direction: row;
   }
@@ -80,12 +91,12 @@ body {
 
 .my-foto {
   width: 35%;
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .short-about-me {
   width: 65%;
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .features {
@@ -95,27 +106,30 @@ body {
 
 .feature {
   width: 100%;
-}
-
-.feature {
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
   text-align: center;
 }
 
 .feature:last-child {
-  padding-bottom: 0em;
+  margin-bottom: 0em;
 }
 
-@media screen and (min-width: 500px) {
+.feature-pic {
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 600px) {
   .features {
     flex-direction: row;
   }
 
   .feature {
-    padding-bottom: 0em;
+    margin-bottom: 0em;
     width: 33%;
   }
 }
+
+/* Блок "Образование" */
 
 .education-table {
   width: 100%;
@@ -137,6 +151,8 @@ body {
   width: 45%;
 }
 
+/* Блок "Карьера" */
+
 .head-block {
   display: flex;
   flex-direction: row;
@@ -149,37 +165,50 @@ body {
 
 .career-short {
   width: 85%;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .career-description {
-  padding-bottom: 2em;
+  margin-bottom: 2em;
   text-align: justify;
 }
 
 .career-description-last {
-  padding-bottom: 0em;
+  margin-bottom: 0em;
   text-align: justify;
 }
+
+/* Блок "Проекты" */
 
 .project-descrition {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 
 .project {
-  text-align: justify;
-  width: 50%;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 80%
 }
 
-/*
-.project h3 {
-  text-align: center;
+.project p {
+  text-align: justify;
+  margin-bottom: 2em;
 }
-*/
 
 .arrow {
-  width: 10%;
+  width: 10%
 }
+
+@media screen and (min-width: 600px) {
+  .project {
+    width: 50%;
+  }
+
+  .arrow {
+    width: 25%;
+  }
+}
+
+/* Подвал */
