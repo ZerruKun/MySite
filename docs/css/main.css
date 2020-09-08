@@ -39,6 +39,11 @@ body {
   margin-bottom: 1em;
 }
 
+.social-item {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 /* Шапка */
 
 .logo-social {
@@ -212,3 +217,18 @@ body {
 }
 
 /* Подвал */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright {
+  width: 50%;
+  text-align: center;
+}
+
+.social-footer {
+  width: 50%;
+  text-align: right;
+}
