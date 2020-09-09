@@ -285,33 +285,24 @@ p {
 
 .project-descrition {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
 }
 
-.project {
-  margin-left: 1em;
-  margin-right: 1em;
-  width: 80%
-}
+
 
 .project p {
-  text-align: justify;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3em;
 }
 
 .arrow {
-  width: 10%
-}
-
-@media screen and (min-width: 768px) {
-  .project {
-    width: 50%;
-  }
-
-  .arrow {
-    width: 25%;
-  }
+  width: 50%
 }
 
 /* Подвал */
@@ -323,7 +314,8 @@ p {
 
 .copyright {
   width: 45%;
-  margin-top: 0.5em;
+  padding-right: 1em;
+  margin-top: 0.3em;
   text-align: center;
 }
 
