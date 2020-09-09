@@ -43,7 +43,7 @@ a {
 
 p {
   font-size: 1.1em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   text-align: justify;
 }
 
@@ -233,13 +233,13 @@ p {
 }
 
 .logo-organization {
-  width: 16%;
+  width: 30%;
 }
 
 .career-short {
   display: flex;
   flex-direction: column;
-  width: 84%;
+  width: 70%;
   margin-bottom: 2em;
 }
 
@@ -272,11 +272,13 @@ p {
 .career-description {
   margin-bottom: 2em;
   text-align: justify;
+  text-indent: 1em;
 }
 
 .career-description-last {
   margin-bottom: 0em;
   text-align: justify;
+  text-indent: 1em;
 }
 
 /* Блок "Проекты" */
