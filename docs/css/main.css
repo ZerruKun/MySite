@@ -297,12 +297,18 @@ p {
 
 .arrows {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   margin-bottom: 3em;
 }
 
 .arrow {
-  width: 50%
+  width: 50%;
+  max-width: 7em;
+}
+
+.arrow:first-child {
+  margin-right: 4em;
 }
 
 /* Подвал */
