@@ -22,12 +22,14 @@ html, body {
 
 html {
   scroll-behavior: smooth;
+  background-color: #F0FFFF;
 }
 
 body {
   min-width: 320px;
   max-width: 980px;
   color: #000000;
+  background-color: #F0F8FF;
   font-size: 1em;
   padding: 1em;
   margin-left: auto;
@@ -84,11 +86,11 @@ p {
 }
 
 .logo {
-  width :45%;
+  width :41%;
 }
 
 .social-header {
-  width:55%;
+  width:59%;
   text-align: right;
 }
 
@@ -98,6 +100,7 @@ p {
   margin-top: 1em;
   text-align: center;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .nav-item {
@@ -293,6 +296,7 @@ p {
 
 .project p {
   margin-bottom: 1.5em;
+  text-align: center;
 }
 
 .arrows {
@@ -315,17 +319,18 @@ p {
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .copyright {
-  width: 45%;
-  padding-right: 1em;
-  margin-top: 0.3em;
-  text-align: center;
+  width: 100%;
+  font-size: 0.6em;
+  text-align: left;
+  color: #A9A9A9;
 }
 
 .social-footer {
-  width: 55%;
+  width: 100%;
   text-align: right;
+  margin-bottom: 2em;
 }
