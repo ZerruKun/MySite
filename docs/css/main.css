@@ -36,11 +36,13 @@ body {
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  cursor: default;
 }
 
 a {
   color: #000000;
   text-decoration: none;
+  cursor: default;
 }
 
 p {
@@ -58,7 +60,9 @@ p {
   margin-bottom: 1em;
   font-family: 'Pacifico', sans-serif;
   font-size: 2.5em;
+  text-decoration: underline;
   color: #191970;
+  border-left: 2px solid black;
 }
 
 .sub-caption {
@@ -66,6 +70,7 @@ p {
   margin-bottom: 1em;
   font-size: 1.5em;
   font-weight: bold;
+  text-decoration: underline;
   color:#4682B4;
 }
 
@@ -79,15 +84,15 @@ p {
   margin-bottom: 0.5em;
 }
 
-.social-item:hover {
+.mail:hover,
+.link-vk:hover {
   color: #808080;
   opacity: 0.6;
   transition-duration: 0.5s;
 }
 
-.social-item:last-child:hover {
-  opacity: 0.6;
-  transition-duration: 0.5s;
+.mail:hover {
+  cursor: copy;
 }
 
 /* Шапка */
@@ -155,11 +160,15 @@ p {
 }
 
 .my-foto {
-  text-align: center;
   width: 100%;
   margin:auto;
   margin-right: 1.5em;
   margin-bottom: 2em;
+  text-align: center;
+}
+
+.my-foto img {
+  border: 1px solid #000000;
 }
 
 .short-about-me {
@@ -228,12 +237,11 @@ p {
 .education-table {
   width: 100%;
   text-align: center;
-  border: 1px solid black;
 }
 
 .education-table th,
 .education-table td {
-  border: 1px solid black;
+  border: 1px solid #778899;
   padding: 0.2em;
 }
 
@@ -274,24 +282,34 @@ p {
   margin-bottom: 0em;
 }
 
+.logo-organization img{
+  border: 1px solid #000000;
+}
+
 @media screen and (min-width: 768px) {
   .career-short {
     flex-direction: row;
+    margin-bottom: 0em;
   }
 
   .career-short p{
     width:33%;
     text-align: center;
     margin-right: 2em;
+    margin-bottom: 0em;
   }
 
   .career-short p:last-child{
     margin-right: 0em;
   }
+
+  .logo-organization img{
+    margin-bottom: 2em;
+  }
 }
 
 .career-description {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   text-align: justify;
   text-indent: 1em;
 }
@@ -310,11 +328,13 @@ p {
   text-align: center;
 }
 
-
-
 .project p {
   margin-bottom: 1.5em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
   text-align: center;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .arrows {
@@ -331,6 +351,11 @@ p {
 
 .arrow:first-child {
   margin-right: 4em;
+}
+
+.arrow:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
 }
 
 /* Подвал */
