@@ -322,19 +322,32 @@ p {
 
 /* Блок "Проекты" */
 
-.project-descrition {
+.projects {
   display: flex;
   flex-direction: column;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   text-align: center;
 }
 
-.project p {
+.project-item {
+  position: absolute;
+  transition: opacity 1s ease-in;
+  opacity: 0;
   margin-bottom: 1.5em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   text-align: center;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+}
+
+.project-item p {
+
 }
 
 .arrows {
