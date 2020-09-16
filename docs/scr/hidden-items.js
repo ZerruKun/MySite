@@ -1,19 +1,34 @@
+let projects = document.querySelectorAll('.project-item');
 let larrow = document.querySelector('.larrow');
 let rarrow = document.querySelector('.rarrow');
+let item = projects[0];
 
-larrow.onclick = function() {
-let elements = document.querySelectorAll('.project');
-for (let i = 0; i < elements.length; i++) {
-  let element = elements[i];
-	if(element.classList.contains("visual-hidden")) {
-    element.classList.toggle('visually-hidden');
+rarrow.onclick = function() {
+  switch (item) {
+    case projects[0]:
+
+      break;
+      
+    case projects[1]:
+
+      break;
+
+    case projects[2]:
+
+      break;
+
+    case projects[3]:
+
+      break;
+
+    default:
+
   }
+  console.log(item);
 }
 
 
-
-/*Показать/скрыть информацию в блоках 1 и 2*/
-
+/*
 let detailedEducation = document.querySelector(".detailed1");
 let hiddenEducation = document.querySelector(".education-hidden");
 let hideEducation = document.querySelector(".hidden1");
@@ -54,7 +69,6 @@ hideJob.onclick = function() {
   console.log("clicked");
 };
 
-/*Кнопки в блоке 3*/
 
 let prof1 = document.querySelector('.prof1');
 let prof2 = document.querySelector('.prof2');
@@ -76,8 +90,6 @@ prof2.onclick = function() {
     item.classList.toggle('visually-hidden');
   };
 };
-
-/*Кнопки в блоке 4*/
 
 let adminDoneItems = document.querySelectorAll(".admin-done-item");
 let adminButtons = document.querySelectorAll(".admin-button");
@@ -138,8 +150,6 @@ frontendButtons[2].onclick = function() {
   frontendButtons[2].classList.add("front-end-button-pushed");
 };
 
-/*Замена значков в подвале*/
-
 let socialItemCopy1 = document.querySelector(".social-item-img1");
 let socialItemCopy2 = document.querySelector(".social-item-img2");
 
@@ -162,3 +172,4 @@ socialItemCopy2.onmouseleave = function() {
   socialItemCopy2.setAttribute("src", "ico/phone.svg");
   console.log(socialItemCopy2);
 }
+*/

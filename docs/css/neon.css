@@ -36,7 +36,7 @@
 
 .feature,
 .logo-organization img,
-.project p {
+.project-item {
   animation-name: border-color;
   animation-duration: 4s;
   animation-iteration-count:infinite;

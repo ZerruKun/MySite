@@ -335,19 +335,16 @@ p {
 }
 
 .project-item {
-  position: absolute;
-  transition: opacity 1s ease-in;
-  opacity: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   margin-bottom: 1.5em;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
   text-align: center;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
 }
 
-.project-item p {
-
+.project-item p{
+  text-align: center;
 }
 
 .arrows {
@@ -358,7 +355,6 @@ p {
 }
 
 .arrow {
-  width: 50%;
   max-width: 7em;
 }
 
