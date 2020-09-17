@@ -84,6 +84,11 @@ p {
   margin-bottom: 0.5em;
 }
 
+.mail,
+.lik-vk {
+  opacity: 1;
+}
+
 .mail:hover,
 .link-vk:hover {
   color: #808080;
@@ -122,6 +127,7 @@ p {
 }
 
 .nav-item {
+  color: #000000;
   width: 100%;
   margin-bottom: 1.5em;
 }
@@ -355,8 +361,9 @@ p {
 }
 
 .arrow {
-  max-width: 7em;
   user-select: none;
+  max-width: 7em;
+  opacity: 1;
 }
 
 .arrow:first-child {
