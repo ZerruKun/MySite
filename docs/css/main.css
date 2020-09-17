@@ -95,11 +95,7 @@ p {
   margin-bottom: 0.5em;
 }
 
-.mail,
-.lik-vk {
-  opacity: 1;
-}
-
+/*
 .mail:hover,
 .link-vk:hover {
   color: #808080;
@@ -110,7 +106,7 @@ p {
 .mail:hover {
   cursor: copy;
 }
-
+*/
 /* Шапка */
 
 .logo-social {
@@ -147,10 +143,12 @@ p {
   margin-bottom: 0em;
 }
 
+/*
 .nav-item a:hover {
   color: #808080;
   transition-duration: 0.5s;
 }
+*/
 
 @media screen and (min-width: 768px) {
   .nav-list {
