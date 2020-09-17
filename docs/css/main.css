@@ -369,13 +369,21 @@ p {
   margin-right: 4em;
 }
 
-.arrow:hover {
-  opacity: 0.6;
+@keyframes social-show {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 
-.arrow:active {
-  opacity: 1;
+.arrow:hover {
+  animation-name: social-show;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
+
 
 /* Подвал */
 
