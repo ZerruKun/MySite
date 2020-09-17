@@ -356,6 +356,7 @@ p {
 
 .arrow {
   max-width: 7em;
+  user-select: none;
 }
 
 .arrow:first-child {
@@ -364,7 +365,6 @@ p {
 
 .arrow:hover {
   opacity: 0.6;
-  transition-duration: 0.5s;
 }
 
 /* Подвал */
