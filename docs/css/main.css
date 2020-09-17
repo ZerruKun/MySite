@@ -363,7 +363,6 @@ p {
 .arrow {
   user-select: none;
   max-width: 7em;
-  opacity: 1;
 }
 
 .arrow:first-child {
@@ -372,6 +371,10 @@ p {
 
 .arrow:hover {
   opacity: 0.6;
+}
+
+.arrow:active {
+  opacity: 1;
 }
 
 /* Подвал */
