@@ -43,6 +43,12 @@ a {
   color: #000000;
   text-decoration: none;
   cursor: default;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
