@@ -368,21 +368,6 @@ p {
   margin-right: 4em;
 }
 
-@keyframes fade-away {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.7;
-  }
-}
-
-.arrow:hover {
-  animation-name: fade-away;
-  animation-duration: 0.6s;
-  animation-fill-mode: forwards;
-}
-
 /* Подвал */
 
 .footer {
