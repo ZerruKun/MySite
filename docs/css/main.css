@@ -46,10 +46,12 @@ a {
   outline: none;
 }
 
+/*
 a:focus,
 a:active {
   outline: none;
 }
+*/
 
 p {
   font-size: 1.1em;
