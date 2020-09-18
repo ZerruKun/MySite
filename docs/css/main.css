@@ -90,6 +90,7 @@ p {
   margin-bottom: 0.5em;
 }
 
+/*
 .mail:hover,
 .link-vk:hover {
   color: #808080;
@@ -99,6 +100,7 @@ p {
 .mail:hover {
   cursor: copy;
 }
+*/
 
 /* Шапка */
 
@@ -139,6 +141,10 @@ p {
 .nav-item a:hover {
   color: #808080;
   transition-duration: 0.5s;
+}
+
+.nav-item a:active {
+  color: #000000;
 }
 
 @media screen and (min-width: 768px) {
