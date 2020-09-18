@@ -46,6 +46,11 @@ a {
   outline: none;
 }
 
+a:visited {
+  color: #000000;
+}
+
+
 p {
   font-size: 1.1em;
   line-height: 1.3em;
@@ -97,6 +102,7 @@ p {
   cursor: copy;
 }
 */
+
 /* Шапка */
 
 .logo-social {
@@ -133,12 +139,10 @@ p {
   margin-bottom: 0em;
 }
 
-/*
 .nav-item a:hover {
   color: #808080;
   transition-duration: 0.5s;
 }
-*/
 
 @media screen and (min-width: 768px) {
   .nav-list {
