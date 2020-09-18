@@ -90,18 +90,15 @@ p {
   margin-bottom: 0.5em;
 }
 
-/*
 .mail:hover,
 .link-vk:hover {
   color: #808080;
-  opacity: 0.6;
   transition-duration: 0.5s;
 }
 
 .mail:hover {
   cursor: copy;
 }
-*/
 
 /* Шапка */
 
