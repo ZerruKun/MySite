@@ -43,12 +43,12 @@ a {
   color: #000000;
   text-decoration: none;
   cursor: default;
+  outline: none;
 }
 
-a:visited,
+a:focus,
 a:active {
-  color: #000000;
-  opacity: 1;
+  outline: none;
 }
 
 p {
@@ -378,7 +378,7 @@ p {
 }
 
 .arrow:active {
-  outline: none;
+  opacity: 1;
 }
 
 /* Подвал */
