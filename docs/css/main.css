@@ -378,6 +378,10 @@ p {
   margin-right: 4em;
 }
 
+.arrow img:hover {
+  opacity: 0.6;
+}
+
 /* Подвал */
 
 .footer {
@@ -395,5 +399,5 @@ p {
 .social-footer {
   width: 100%;
   text-align: right;
-  margin-bottom: 2em; 
+  margin-bottom: 2em;
 }
