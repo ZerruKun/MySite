@@ -377,6 +377,10 @@ p {
   opacity: 0.6;
 }
 
+.arrow:active {
+  outline: none;
+}
+
 /* Подвал */
 
 .footer {
