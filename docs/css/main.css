@@ -393,6 +393,19 @@ p {
   margin-right: 4em;
 }
 
+@media(hover: hover) {
+  .arrow :hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+  }
+}
+
+@media(any-pointer: coarse) {
+  .arrow :hover {
+    opacity: 1;
+  }
+}
+
 /* Подвал */
 
 .footer {
