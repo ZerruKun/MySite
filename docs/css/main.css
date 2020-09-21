@@ -413,15 +413,15 @@ p {
   flex-direction: column;
 }
 
-.copyright {
-  width: 100%;
-  font-size: 0.6em;
-  text-align: left;
-  color: #A9A9A9;
-}
-
 .social-footer {
   width: 100%;
   text-align: right;
   margin-bottom: 2em;
+}
+
+.copyright {
+  width: 100%;
+  font-size: 0.6em;
+  text-align: right;
+  color: #A9A9A9;
 }
