@@ -138,14 +138,13 @@ p {
   margin-bottom: 0em;
 }
 
-.nav-item a:hover {
-  color: #808080;
-  transition-duration: 0.5s;
+@media(hover: hover) {
+  .nav-item a:hover {
+    color: #808080;
+    transition-duration: 0.5s;
+  }
 }
 
-.nav-item a:active {
-  color: #000000;
-}
 
 @media screen and (min-width: 768px) {
   .nav-list {
