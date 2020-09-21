@@ -145,6 +145,11 @@ p {
   }
 }
 
+@media(any-pointer: coarse) {
+  .nav-item a:hover {
+    color: #000000;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .nav-list {
